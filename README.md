@@ -1,4 +1,39 @@
 # day_5
+//-------------Операторы сравнения и условия----------------
+/*
+Операторы сравнения
+>, <, >=, <=    -больше, меньше, больше либо равно, меньше либо равно
+==   -нестрогое сравнение
+===   -строгое сравнение
+!=   - нестрогое равенство
+!==   -строгое равенство
+
+*/
+
+concole.log(10>5) ; //true
+console.log(20>80); //false
+let result = 10 > 5; // true
+console.log(result);
+console.log('5' == 5); true
+console.log('5' === 5); false
+
+/*
+if (условие) {
+       // код который будет выполнен если условие верно
+} else { 
+       // код который будет выполнен если условие НЕ верно
+}
+*/
+
+const time = 12;
+if (time < 12 ) {
+   console.log('Доброе утро!');
+} else if ( time >= 12 && time < 18) {
+   console.log('Добрый день!');
+} else { 
+    console.log(Добрый вечер!);
+
+
 console.log((5**2)*7);
 console.log(2548+468);
 console.log(854%9);
@@ -51,3 +86,9 @@ console.log( !1 ); // false
 
 console.log( !!"non-empty string" ); // true
 console.log( !!null ); // false
+
+
+
+
+
+
